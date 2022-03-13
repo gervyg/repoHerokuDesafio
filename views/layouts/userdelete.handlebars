@@ -36,7 +36,7 @@ crossorigin="anonymous">
 
 <script>
   function del(id) { 
-    axios.delete("http://localhost:5000/users/"+id)
+    axios.delete("/users/"+id)
         .then((response) => {
             console.log(response);
             alert("Tarea eliminada.")

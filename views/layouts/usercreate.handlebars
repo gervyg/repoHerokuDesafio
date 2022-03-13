@@ -46,7 +46,7 @@ crossorigin="anonymous">
       let username = $("#username").val();     
       let email = $("#email").val();
       let contraseña = $("#contraseña").val();
-      axios.post("http://localhost:5000/users", 
+      axios.post("/users", 
         {
           username: username,
           email: email,
